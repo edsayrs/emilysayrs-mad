@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B03276F17E8ADBC0075AFA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B03276E17E8ADBC0075AFA6 /* UIKit.framework */; };
+		0B03277117E8ADBC0075AFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B03277017E8ADBC0075AFA6 /* Foundation.framework */; };
+		0B03277317E8ADBC0075AFA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B03277217E8ADBC0075AFA6 /* CoreGraphics.framework */; };
+		0B03277917E8ADBC0075AFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B03277717E8ADBC0075AFA6 /* InfoPlist.strings */; };
+		0B03277B17E8ADBC0075AFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03277A17E8ADBC0075AFA6 /* main.m */; };
+		0B03277F17E8ADBC0075AFA6 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03277E17E8ADBC0075AFA6 /* MADAppDelegate.m */; };
+		0B03278117E8ADBC0075AFA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03278017E8ADBC0075AFA6 /* Default.png */; };
+		0B03278317E8ADBC0075AFA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03278217E8ADBC0075AFA6 /* Default@2x.png */; };
+		0B03278517E8ADBC0075AFA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03278417E8ADBC0075AFA6 /* Default-568h@2x.png */; };
+		0B03278817E8ADBC0075AFA6 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03278717E8ADBC0075AFA6 /* MADViewController.m */; };
+		0B03278B17E8ADBC0075AFA6 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B03278917E8ADBC0075AFA6 /* MADViewController.xib */; };
+		0B03279417E8AEB00075AFA6 /* beatles1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03279117E8AEB00075AFA6 /* beatles1.png */; };
+		0B03279517E8AEB00075AFA6 /* beatles2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03279217E8AEB00075AFA6 /* beatles2.png */; };
+		0B03279617E8AEB00075AFA6 /* Beatles_Abbey_Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03279317E8AEB00075AFA6 /* Beatles_Abbey_Road.png */; };
+		0B03279917E8AEC00075AFA6 /* Beatles_Abbey_Road_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03279717E8AEC00075AFA6 /* Beatles_Abbey_Road_icon@2x.png */; };
+		0B03279A17E8AEC00075AFA6 /* Beatles_Abbey_Road_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B03279817E8AEC00075AFA6 /* Beatles_Abbey_Road_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B03276B17E8ADBC0075AFA6 /* beatles-lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beatles-lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B03276E17E8ADBC0075AFA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B03277017E8ADBC0075AFA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B03277217E8ADBC0075AFA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B03277617E8ADBC0075AFA6 /* beatles-lab3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "beatles-lab3-Info.plist"; sourceTree = "<group>"; };
+		0B03277817E8ADBC0075AFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B03277A17E8ADBC0075AFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B03277C17E8ADBC0075AFA6 /* beatles-lab3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beatles-lab3-Prefix.pch"; sourceTree = "<group>"; };
+		0B03277D17E8ADBC0075AFA6 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		0B03277E17E8ADBC0075AFA6 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		0B03278017E8ADBC0075AFA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0B03278217E8ADBC0075AFA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0B03278417E8ADBC0075AFA6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B03278617E8ADBC0075AFA6 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		0B03278717E8ADBC0075AFA6 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		0B03278A17E8ADBC0075AFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		0B03279117E8AEB00075AFA6 /* beatles1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beatles1.png; path = ../beatles1.png; sourceTree = "<group>"; };
+		0B03279217E8AEB00075AFA6 /* beatles2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beatles2.png; path = ../beatles2.png; sourceTree = "<group>"; };
+		0B03279317E8AEB00075AFA6 /* Beatles_Abbey_Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beatles_Abbey_Road.png; path = ../Beatles_Abbey_Road.png; sourceTree = "<group>"; };
+		0B03279717E8AEC00075AFA6 /* Beatles_Abbey_Road_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beatles_Abbey_Road_icon@2x.png"; path = "../Beatles_Abbey_Road_icon@2x.png"; sourceTree = "<group>"; };
+		0B03279817E8AEC00075AFA6 /* Beatles_Abbey_Road_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beatles_Abbey_Road_icon.png; path = ../Beatles_Abbey_Road_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B03276817E8ADBC0075AFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B03276F17E8ADBC0075AFA6 /* UIKit.framework in Frameworks */,
+				0B03277117E8ADBC0075AFA6 /* Foundation.framework in Frameworks */,
+				0B03277317E8ADBC0075AFA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B03276217E8ADBC0075AFA6 = {
+			isa = PBXGroup;
+			children = (
+				0B03277417E8ADBC0075AFA6 /* beatles-lab3 */,
+				0B03276D17E8ADBC0075AFA6 /* Frameworks */,
+				0B03276C17E8ADBC0075AFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B03276C17E8ADBC0075AFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B03276B17E8ADBC0075AFA6 /* beatles-lab3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B03276D17E8ADBC0075AFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B03276E17E8ADBC0075AFA6 /* UIKit.framework */,
+				0B03277017E8ADBC0075AFA6 /* Foundation.framework */,
+				0B03277217E8ADBC0075AFA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B03277417E8ADBC0075AFA6 /* beatles-lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				0B03277D17E8ADBC0075AFA6 /* MADAppDelegate.h */,
+				0B03277E17E8ADBC0075AFA6 /* MADAppDelegate.m */,
+				0B03278617E8ADBC0075AFA6 /* MADViewController.h */,
+				0B03278717E8ADBC0075AFA6 /* MADViewController.m */,
+				0B03278917E8ADBC0075AFA6 /* MADViewController.xib */,
+				0B03277517E8ADBC0075AFA6 /* Supporting Files */,
+			);
+			path = "beatles-lab3";
+			sourceTree = "<group>";
+		};
+		0B03277517E8ADBC0075AFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B03277617E8ADBC0075AFA6 /* beatles-lab3-Info.plist */,
+				0B03277717E8ADBC0075AFA6 /* InfoPlist.strings */,
+				0B03279717E8AEC00075AFA6 /* Beatles_Abbey_Road_icon@2x.png */,
+				0B03279817E8AEC00075AFA6 /* Beatles_Abbey_Road_icon.png */,
+				0B03279117E8AEB00075AFA6 /* beatles1.png */,
+				0B03279217E8AEB00075AFA6 /* beatles2.png */,
+				0B03279317E8AEB00075AFA6 /* Beatles_Abbey_Road.png */,
+				0B03277A17E8ADBC0075AFA6 /* main.m */,
+				0B03277C17E8ADBC0075AFA6 /* beatles-lab3-Prefix.pch */,
+				0B03278017E8ADBC0075AFA6 /* Default.png */,
+				0B03278217E8ADBC0075AFA6 /* Default@2x.png */,
+				0B03278417E8ADBC0075AFA6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B03276A17E8ADBC0075AFA6 /* beatles-lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B03278E17E8ADBC0075AFA6 /* Build configuration list for PBXNativeTarget "beatles-lab3" */;
+			buildPhases = (
+				0B03276717E8ADBC0075AFA6 /* Sources */,
+				0B03276817E8ADBC0075AFA6 /* Frameworks */,
+				0B03276917E8ADBC0075AFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beatles-lab3";
+			productName = "beatles-lab3";
+			productReference = 0B03276B17E8ADBC0075AFA6 /* beatles-lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B03276317E8ADBC0075AFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Emily Sayrs";
+			};
+			buildConfigurationList = 0B03276617E8ADBC0075AFA6 /* Build configuration list for PBXProject "beatles-lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B03276217E8ADBC0075AFA6;
+			productRefGroup = 0B03276C17E8ADBC0075AFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B03276A17E8ADBC0075AFA6 /* beatles-lab3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B03276917E8ADBC0075AFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B03277917E8ADBC0075AFA6 /* InfoPlist.strings in Resources */,
+				0B03278117E8ADBC0075AFA6 /* Default.png in Resources */,
+				0B03278317E8ADBC0075AFA6 /* Default@2x.png in Resources */,
+				0B03278517E8ADBC0075AFA6 /* Default-568h@2x.png in Resources */,
+				0B03278B17E8ADBC0075AFA6 /* MADViewController.xib in Resources */,
+				0B03279417E8AEB00075AFA6 /* beatles1.png in Resources */,
+				0B03279517E8AEB00075AFA6 /* beatles2.png in Resources */,
+				0B03279617E8AEB00075AFA6 /* Beatles_Abbey_Road.png in Resources */,
+				0B03279917E8AEC00075AFA6 /* Beatles_Abbey_Road_icon@2x.png in Resources */,
+				0B03279A17E8AEC00075AFA6 /* Beatles_Abbey_Road_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B03276717E8ADBC0075AFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B03277B17E8ADBC0075AFA6 /* main.m in Sources */,
+				0B03277F17E8ADBC0075AFA6 /* MADAppDelegate.m in Sources */,
+				0B03278817E8ADBC0075AFA6 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B03277717E8ADBC0075AFA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B03277817E8ADBC0075AFA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B03278917E8ADBC0075AFA6 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B03278A17E8ADBC0075AFA6 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B03278C17E8ADBC0075AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B03278D17E8ADBC0075AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B03278F17E8ADBC0075AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles-lab3/beatles-lab3-Prefix.pch";
+				INFOPLIST_FILE = "beatles-lab3/beatles-lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B03279017E8ADBC0075AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles-lab3/beatles-lab3-Prefix.pch";
+				INFOPLIST_FILE = "beatles-lab3/beatles-lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B03276617E8ADBC0075AFA6 /* Build configuration list for PBXProject "beatles-lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B03278C17E8ADBC0075AFA6 /* Debug */,
+				0B03278D17E8ADBC0075AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B03278E17E8ADBC0075AFA6 /* Build configuration list for PBXNativeTarget "beatles-lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B03278F17E8ADBC0075AFA6 /* Debug */,
+				0B03279017E8ADBC0075AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B03276317E8ADBC0075AFA6 /* Project object */;
+}
