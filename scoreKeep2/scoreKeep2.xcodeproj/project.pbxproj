@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B37FAC817FB2B6700357DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B37FAC717FB2B6700357DB5 /* UIKit.framework */; };
+		0B37FACA17FB2B6700357DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B37FAC917FB2B6700357DB5 /* Foundation.framework */; };
+		0B37FACC17FB2B6700357DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B37FACB17FB2B6700357DB5 /* CoreGraphics.framework */; };
+		0B37FAD217FB2B6700357DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAD017FB2B6700357DB5 /* InfoPlist.strings */; };
+		0B37FAD417FB2B6700357DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAD317FB2B6700357DB5 /* main.m */; };
+		0B37FAD817FB2B6700357DB5 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAD717FB2B6700357DB5 /* MADAppDelegate.m */; };
+		0B37FADA17FB2B6700357DB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAD917FB2B6700357DB5 /* Default.png */; };
+		0B37FADC17FB2B6700357DB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FADB17FB2B6700357DB5 /* Default@2x.png */; };
+		0B37FADE17FB2B6700357DB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FADD17FB2B6700357DB5 /* Default-568h@2x.png */; };
+		0B37FAE117FB2B6700357DB5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FADF17FB2B6700357DB5 /* MainStoryboard.storyboard */; };
+		0B37FAE417FB2B6700357DB5 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAE317FB2B6700357DB5 /* MADMasterViewController.m */; };
+		0B37FAE717FB2B6700357DB5 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAE617FB2B6700357DB5 /* MADDetailViewController.m */; };
+		0B37FAEF17FB3D8100357DB5 /* scoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAEE17FB3D8100357DB5 /* scoreKeeper.m */; };
+		0B37FAF217FB41E100357DB5 /* scoreKeeperDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */; };
+		0B37FAF517FD05AE00357DB5 /* AddKeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */; };
+		0B37FAF717FDAC3300357DB5 /* scoreKeepericon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */; };
+		0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B37FAC417FB2B6700357DB5 /* scoreKeep2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreKeep2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B37FAC717FB2B6700357DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B37FAC917FB2B6700357DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B37FACB17FB2B6700357DB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B37FACF17FB2B6700357DB5 /* scoreKeep2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoreKeep2-Info.plist"; sourceTree = "<group>"; };
+		0B37FAD117FB2B6700357DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B37FAD317FB2B6700357DB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B37FAD517FB2B6700357DB5 /* scoreKeep2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scoreKeep2-Prefix.pch"; sourceTree = "<group>"; };
+		0B37FAD617FB2B6700357DB5 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		0B37FAD717FB2B6700357DB5 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		0B37FAD917FB2B6700357DB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0B37FADB17FB2B6700357DB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0B37FADD17FB2B6700357DB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B37FAE017FB2B6700357DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0B37FAE217FB2B6700357DB5 /* MADMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		0B37FAE317FB2B6700357DB5 /* MADMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		0B37FAE517FB2B6700357DB5 /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		0B37FAE617FB2B6700357DB5 /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		0B37FAED17FB3D8100357DB5 /* scoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreKeeper.h; sourceTree = "<group>"; };
+		0B37FAEE17FB3D8100357DB5 /* scoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreKeeper.m; sourceTree = "<group>"; };
+		0B37FAF017FB41E100357DB5 /* scoreKeeperDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scoreKeeperDataController.h; path = ../scoreKeeperDataController.h; sourceTree = "<group>"; };
+		0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = scoreKeeperDataController.m; path = ../scoreKeeperDataController.m; sourceTree = "<group>"; };
+		0B37FAF317FD05AE00357DB5 /* AddKeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddKeeperViewController.h; sourceTree = "<group>"; };
+		0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddKeeperViewController.m; sourceTree = "<group>"; };
+		0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scoreKeepericon.jpg; path = ../scoreKeepericon.jpg; sourceTree = "<group>"; };
+		0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreKeeperIcon.png; path = ../scoreKeeperIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B37FAC117FB2B6700357DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B37FAC817FB2B6700357DB5 /* UIKit.framework in Frameworks */,
+				0B37FACA17FB2B6700357DB5 /* Foundation.framework in Frameworks */,
+				0B37FACC17FB2B6700357DB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B37FABB17FB2B6700357DB5 = {
+			isa = PBXGroup;
+			children = (
+				0B37FACD17FB2B6700357DB5 /* scoreKeep2 */,
+				0B37FAC617FB2B6700357DB5 /* Frameworks */,
+				0B37FAC517FB2B6700357DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B37FAC517FB2B6700357DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B37FAC417FB2B6700357DB5 /* scoreKeep2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B37FAC617FB2B6700357DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B37FAC717FB2B6700357DB5 /* UIKit.framework */,
+				0B37FAC917FB2B6700357DB5 /* Foundation.framework */,
+				0B37FACB17FB2B6700357DB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B37FACD17FB2B6700357DB5 /* scoreKeep2 */ = {
+			isa = PBXGroup;
+			children = (
+				0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */,
+				0B37FAF317FD05AE00357DB5 /* AddKeeperViewController.h */,
+				0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */,
+				0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */,
+				0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */,
+				0B37FAF017FB41E100357DB5 /* scoreKeeperDataController.h */,
+				0B37FAD617FB2B6700357DB5 /* MADAppDelegate.h */,
+				0B37FAD717FB2B6700357DB5 /* MADAppDelegate.m */,
+				0B37FADF17FB2B6700357DB5 /* MainStoryboard.storyboard */,
+				0B37FAED17FB3D8100357DB5 /* scoreKeeper.h */,
+				0B37FAEE17FB3D8100357DB5 /* scoreKeeper.m */,
+				0B37FAE217FB2B6700357DB5 /* MADMasterViewController.h */,
+				0B37FAE317FB2B6700357DB5 /* MADMasterViewController.m */,
+				0B37FAE517FB2B6700357DB5 /* MADDetailViewController.h */,
+				0B37FAE617FB2B6700357DB5 /* MADDetailViewController.m */,
+				0B37FACE17FB2B6700357DB5 /* Supporting Files */,
+			);
+			path = scoreKeep2;
+			sourceTree = "<group>";
+		};
+		0B37FACE17FB2B6700357DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B37FACF17FB2B6700357DB5 /* scoreKeep2-Info.plist */,
+				0B37FAD017FB2B6700357DB5 /* InfoPlist.strings */,
+				0B37FAD317FB2B6700357DB5 /* main.m */,
+				0B37FAD517FB2B6700357DB5 /* scoreKeep2-Prefix.pch */,
+				0B37FAD917FB2B6700357DB5 /* Default.png */,
+				0B37FADB17FB2B6700357DB5 /* Default@2x.png */,
+				0B37FADD17FB2B6700357DB5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B37FAC317FB2B6700357DB5 /* scoreKeep2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B37FAEA17FB2B6700357DB5 /* Build configuration list for PBXNativeTarget "scoreKeep2" */;
+			buildPhases = (
+				0B37FAC017FB2B6700357DB5 /* Sources */,
+				0B37FAC117FB2B6700357DB5 /* Frameworks */,
+				0B37FAC217FB2B6700357DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scoreKeep2;
+			productName = scoreKeep2;
+			productReference = 0B37FAC417FB2B6700357DB5 /* scoreKeep2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B37FABC17FB2B6700357DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Emily Sayrs";
+			};
+			buildConfigurationList = 0B37FABF17FB2B6700357DB5 /* Build configuration list for PBXProject "scoreKeep2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B37FABB17FB2B6700357DB5;
+			productRefGroup = 0B37FAC517FB2B6700357DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B37FAC317FB2B6700357DB5 /* scoreKeep2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B37FAC217FB2B6700357DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B37FAD217FB2B6700357DB5 /* InfoPlist.strings in Resources */,
+				0B37FADA17FB2B6700357DB5 /* Default.png in Resources */,
+				0B37FADC17FB2B6700357DB5 /* Default@2x.png in Resources */,
+				0B37FADE17FB2B6700357DB5 /* Default-568h@2x.png in Resources */,
+				0B37FAE117FB2B6700357DB5 /* MainStoryboard.storyboard in Resources */,
+				0B37FAF717FDAC3300357DB5 /* scoreKeepericon.jpg in Resources */,
+				0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B37FAC017FB2B6700357DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B37FAD417FB2B6700357DB5 /* main.m in Sources */,
+				0B37FAD817FB2B6700357DB5 /* MADAppDelegate.m in Sources */,
+				0B37FAE417FB2B6700357DB5 /* MADMasterViewController.m in Sources */,
+				0B37FAE717FB2B6700357DB5 /* MADDetailViewController.m in Sources */,
+				0B37FAEF17FB3D8100357DB5 /* scoreKeeper.m in Sources */,
+				0B37FAF217FB41E100357DB5 /* scoreKeeperDataController.m in Sources */,
+				0B37FAF517FD05AE00357DB5 /* AddKeeperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B37FAD017FB2B6700357DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B37FAD117FB2B6700357DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B37FADF17FB2B6700357DB5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B37FAE017FB2B6700357DB5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B37FAE817FB2B6700357DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B37FAE917FB2B6700357DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B37FAEB17FB2B6700357DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scoreKeep2/scoreKeep2-Prefix.pch";
+				INFOPLIST_FILE = "scoreKeep2/scoreKeep2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B37FAEC17FB2B6700357DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scoreKeep2/scoreKeep2-Prefix.pch";
+				INFOPLIST_FILE = "scoreKeep2/scoreKeep2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B37FABF17FB2B6700357DB5 /* Build configuration list for PBXProject "scoreKeep2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B37FAE817FB2B6700357DB5 /* Debug */,
+				0B37FAE917FB2B6700357DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B37FAEA17FB2B6700357DB5 /* Build configuration list for PBXNativeTarget "scoreKeep2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B37FAEB17FB2B6700357DB5 /* Debug */,
+				0B37FAEC17FB2B6700357DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B37FABC17FB2B6700357DB5 /* Project object */;
+}
