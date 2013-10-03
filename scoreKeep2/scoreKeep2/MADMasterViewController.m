@@ -4,7 +4,8 @@
 //
 //  Created by Emily Sayrs on 10/1/13.
 //  Copyright (c) 2013 Emily Sayrs. All rights reserved.
-//
+//set up for multiple views and table view inspired from "your secome ios app:storyboards from developer.apple.com. url:https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/SecondiOSAppTutorial/SecondiOSAppTutorial.pdf
+
 
 #import "MADMasterViewController.h"
 
