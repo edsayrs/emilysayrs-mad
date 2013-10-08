@@ -22,7 +22,6 @@
 		0B37FAEF17FB3D8100357DB5 /* scoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAEE17FB3D8100357DB5 /* scoreKeeper.m */; };
 		0B37FAF217FB41E100357DB5 /* scoreKeeperDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */; };
 		0B37FAF517FD05AE00357DB5 /* AddKeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */; };
-		0B37FAF717FDAC3300357DB5 /* scoreKeepericon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */; };
 		0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = scoreKeeperDataController.m; path = ../scoreKeeperDataController.m; sourceTree = "<group>"; };
 		0B37FAF317FD05AE00357DB5 /* AddKeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddKeeperViewController.h; sourceTree = "<group>"; };
 		0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddKeeperViewController.m; sourceTree = "<group>"; };
-		0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scoreKeepericon.jpg; path = ../scoreKeepericon.jpg; sourceTree = "<group>"; };
 		0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreKeeperIcon.png; path = ../scoreKeeperIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +99,6 @@
 			children = (
 				0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */,
 				0B37FAF317FD05AE00357DB5 /* AddKeeperViewController.h */,
-				0B37FAF617FDAC3300357DB5 /* scoreKeepericon.jpg */,
 				0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */,
 				0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */,
 				0B37FAF017FB41E100357DB5 /* scoreKeeperDataController.h */,
@@ -190,7 +187,6 @@
 				0B37FADC17FB2B6700357DB5 /* Default@2x.png in Resources */,
 				0B37FADE17FB2B6700357DB5 /* Default-568h@2x.png in Resources */,
 				0B37FAE117FB2B6700357DB5 /* MainStoryboard.storyboard in Resources */,
-				0B37FAF717FDAC3300357DB5 /* scoreKeepericon.jpg in Resources */,
 				0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
