@@ -13,5 +13,7 @@
 @interface MADMasterViewController : UITableViewController
 
 @property (strong, nonatomic) MADDetailViewController *detailViewController;
+@property (copy, nonatomic) NSArray *characters;
+
 
 @end

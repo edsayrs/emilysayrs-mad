@@ -19,6 +19,7 @@
 		0BB51F931822ADB2003C1073 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB51F911822ADB2003C1073 /* MainStoryboard.storyboard */; };
 		0BB51F961822ADB2003C1073 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB51F951822ADB2003C1073 /* MADMasterViewController.m */; };
 		0BB51F991822ADB2003C1073 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB51F981822ADB2003C1073 /* MADDetailViewController.m */; };
+		0BB51FA01822B17E003C1073 /* harrypotter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB51F9F1822B17E003C1073 /* harrypotter.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0BB51F951822ADB2003C1073 /* MADMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
 		0BB51F971822ADB2003C1073 /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
 		0BB51F981822ADB2003C1073 /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		0BB51F9F1822B17E003C1073 /* harrypotter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = harrypotter.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		0BB51F801822ADB2003C1073 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BB51F9F1822B17E003C1073 /* harrypotter.plist */,
 				0BB51F811822ADB2003C1073 /* harrypotter_2-Info.plist */,
 				0BB51F821822ADB2003C1073 /* InfoPlist.strings */,
 				0BB51F851822ADB2003C1073 /* main.m */,
@@ -169,6 +172,7 @@
 				0BB51F8E1822ADB2003C1073 /* Default@2x.png in Resources */,
 				0BB51F901822ADB2003C1073 /* Default-568h@2x.png in Resources */,
 				0BB51F931822ADB2003C1073 /* MainStoryboard.storyboard in Resources */,
+				0BB51FA01822B17E003C1073 /* harrypotter.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

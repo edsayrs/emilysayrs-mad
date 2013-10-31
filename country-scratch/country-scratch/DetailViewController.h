@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UITableViewController
+@interface DetailViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@property(strong, nonatomic) NSMutableArray *countryList;
+
 
 @end

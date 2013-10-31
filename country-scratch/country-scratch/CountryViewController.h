@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CountryViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *countryTextField;
 
 @end
