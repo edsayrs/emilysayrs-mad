@@ -571,6 +571,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="gamePicker" destination="nCD-ZI-Hpb" id="9dy-uJ-337"/>
                         <outlet property="player1NameInput" destination="LEk-Vg-GPR" id="yPq-qW-vsd"/>
                         <outlet property="player2NameInput" destination="9cf-oe-cp9" id="Udw-1r-Pq4"/>
                         <outlet property="startingScoreValue" destination="EKS-nL-COZ" id="lv5-Tt-WTm"/>
@@ -604,6 +605,7 @@
         <class className="AddKeeperViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AddKeeperViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="gamePicker" candidateClass="UIPickerView"/>
                 <relationship kind="outlet" name="gameTypeInput" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="player1NameInput" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="player2NameInput" candidateClass="UITextField"/>

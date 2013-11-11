@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class scoreKeeper;
-@interface AddKeeperViewController : UITableViewController <UITextFieldDelegate>
+@interface AddKeeperViewController : UITableViewController <UITextFieldDelegate, UIPickerViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *player1NameInput;
 @property (weak, nonatomic) IBOutlet UITextField *player2NameInput;
 @property (weak, nonatomic) IBOutlet UITextField *gameTypeInput;
@@ -16,5 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *startingScoreValue;
 
 @property(strong, nonatomic) scoreKeeper *scoreKeeper;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *gamePicker;
 
 @end
