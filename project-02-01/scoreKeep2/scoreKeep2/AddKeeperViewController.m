@@ -10,6 +10,7 @@
 #import "scoreKeeper.h"
 #import"MADDetailViewController.h"
 
+
 @interface AddKeeperViewController ()
 
 @end
@@ -42,6 +43,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     NSArray *array=[[NSArray alloc] initWithObjects:@"Dominos", @"Spades", nil];
+    _gameTypeInput.text = @"Dominos";
     _games=array;
 }
 
@@ -81,7 +83,7 @@
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([[segue identifier] isEqualToString:@"ReturnInput" ]){
-        if([self.player1NameInput.text length] || [self.player2NameInput.text length] || [self.gameTypeInput.text length] ){
+        if([self.player1NameInput.text length] || [self.player2NameInput.text length] || [self.gameTypeInput.text length]){
             scoreKeeper *keeper;
         
             keeper = [[scoreKeeper alloc]
@@ -159,15 +161,44 @@
 
 #pragma mark - Table view delegate
 
-/*- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+    UITableViewCell *cell =[tableView cellForRowAtIndexPath:indexPath];
+    
+    
+    if([cell.detailTextLabel.text isEqualToString:@"Dominos"]){
+        [self performSegueWithIdentifier:@"ShowKeeperDetails" sender:nil];
+        if([self.player1NameInput.text length] || [self.player2NameInput.text length] || [self.gameTypeInput.text length]){
+            scoreKeeper *keeper;
+            
+            keeper = [[scoreKeeper alloc]
+                      initWithName:[[NSString alloc]initWithFormat:@"%@ vs. %@", _player1NameInput.text, _player2NameInput.text] winner:[[NSString alloc]initWithFormat:@"Undecided"] gameType:self.gameTypeInput.text player1Name:self.player1NameInput.text player2Name:self.player2NameInput.text player1Score:self.startingScoreValue.text player2Score:self.startingScoreValue.text];
+            self.scoreKeeper = keeper;
+        }
+
+        
+    } else if([cell.detailTextLabel.text isEqualToString:@"Spades"]){
+        
+        [self performSegueWithIdentifier:@"ShowKeeper2Details" sender:nil];
+        if([self.player1NameInput.text length] || [self.player2NameInput.text length] || [self.gameTypeInput.text length]){
+            scoreKeeper *keeper;
+            
+            keeper = [[scoreKeeper alloc]
+                      initWithName:[[NSString alloc]initWithFormat:@"%@ vs. %@", _player1NameInput.text, _player2NameInput.text] winner:[[NSString alloc]initWithFormat:@"Undecided"] gameType:self.gameTypeInput.text player1Name:self.player1NameInput.text player2Name:self.player2NameInput.text player1Score:self.startingScoreValue.text player2Score:self.startingScoreValue.text];
+            self.scoreKeeper = keeper;
+
+        }
+    }
+}
+    
+
+     //<#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     
-}*/
+    // [self.navigationController pushViewController:detailViewController animated:YES];
+     //}
 
 @end

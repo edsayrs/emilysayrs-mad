@@ -14,7 +14,7 @@
 #import "scoreKeeper.h"
 #import "AddKeeperViewController.h"
 #import "Detail2ViewController.h"
-#import "Detail2ViewController.m"
+
 
 
 /*@interface MADMasterViewController () {
@@ -135,15 +135,17 @@
 }
 */
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 UITableViewCell *cell =[tableView cellForRowAtIndexPath:indexPath];
 
 
 if([cell.detailTextLabel.text isEqualToString:@"Dominos"]){
+    
     [self performSegueWithIdentifier:@"ShowKeeperDetails" sender:nil];
     
-} else{
+} else if([cell.detailTextLabel.text isEqualToString:@"Spades"]){
+
      [self performSegueWithIdentifier:@"ShowKeeper2Details" sender:nil];
     
     }
@@ -155,12 +157,17 @@ if([cell.detailTextLabel.text isEqualToString:@"Dominos"]){
     if ([[segue identifier] isEqualToString:@"ShowKeeperDetails"]) {
         MADDetailViewController *detailViewController = [segue destinationViewController];
         
+       // NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        
         detailViewController.keeper = [self.dataController objectInListAtIndex:[self.tableView indexPathForSelectedRow].row];
         
     
     }
-else{
-    MADDetailViewController *detail2ViewController =[segue destinationViewController];
+    
+if ([[segue identifier] isEqualToString:@"ShowKeeper2Details"]) {
+    Detail2ViewController *detail2ViewController =[segue destinationViewController];
+   // NSIndexPath *indexPath =[self.tableView indexPathForCell:sender];
+    
     detail2ViewController.keeper = [self.dataController objectInListAtIndex:[self.tableView indexPathForSelectedRow].row];
 }
 }

@@ -20,7 +20,8 @@
 
 
 
--(id)initWithName:(NSString *)name  winner:(NSString *)winner gameType:(NSString *)gameType player1Name:(NSString *)player1Name player2Name:(NSString*)player2Name player1Score:(NSString*)player1Score player2Score:(NSString*)player2Score;
+
+-(id)initWithName:(NSString *)name  winner:(NSString *)winner gameType:(NSString *)gameType player1Name:(NSString *)player1Name player2Name:(NSString*)player2Name player1Score:(NSString*)player1Score player2Score:(NSString*)player2Score ;
 
 
 @end

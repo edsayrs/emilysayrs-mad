@@ -39,11 +39,27 @@
         self.player1NameLabel.text = theKeeper.player1Name;
         self.player2NameLabel.text = theKeeper.player2Name;
         self.player1ScoreLabel.text =theKeeper.player1Score;
-        self.player2ScoreLabel.text =theKeeper.player1Score;
-        
+        self.player2ScoreLabel.text =theKeeper.player2Score;
+      
     }
     
 }
+//-(void)viewWillAppear{
+//  
+//        // Update the user interface for the detail item.
+//        scoreKeeper *theKeeper = self.keeper;
+//        
+//        if(theKeeper){
+//            self.scoreNameLabel.text = theKeeper.name;
+//            self.winnerLabel.text = theKeeper.winner;
+//            self.gameTypeLabel.text = theKeeper.gameType;
+//            self.player1NameLabel.text = theKeeper.player1Name;
+//            self.player2NameLabel.text = theKeeper.player2Name;
+//            self.player1ScoreLabel.text =theKeeper.player1Score;
+//            self.player2ScoreLabel.text =theKeeper.player2Score;        
+//    }
+//
+//}
 
 - (void)viewDidLoad
 {
@@ -57,6 +73,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 -(void)updatePlayer1Plus5{
     int player1CurrentScore=[_player1ScoreLabel.text intValue];

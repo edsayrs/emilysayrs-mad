@@ -21,7 +21,8 @@
     /*scoreKeeper *keeper;
     keeper =[[scoreKeeper alloc]initWithName:@"Player1 vs Player2"  winner:@"Player1"gameType:@"dominos"];
     [self addScoreKeeperWithKeeper:keeper];*/
-    //I commented this out so no default shows. 
+    //I commented this out so no default shows.
+    
 }
 
 -(void)setMasterScoreKeeperList:(NSMutableArray *)newList{

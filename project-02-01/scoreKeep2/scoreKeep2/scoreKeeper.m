@@ -20,6 +20,8 @@
         _player2Name= player2Name;
         _player1Score= player1Score;
         _player2Score= player2Score;
+      
+        
         
         return self;
         

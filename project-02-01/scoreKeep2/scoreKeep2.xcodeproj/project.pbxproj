@@ -23,7 +23,6 @@
 		0B37FAF217FB41E100357DB5 /* scoreKeeperDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF117FB41E100357DB5 /* scoreKeeperDataController.m */; };
 		0B37FAF517FD05AE00357DB5 /* AddKeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */; };
 		0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */; };
-		0BB51FA31822F715003C1073 /* TotalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB51FA21822F715003C1073 /* TotalsViewController.m */; };
 		0BB51FA61822FB43003C1073 /* Detail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB51FA51822FB43003C1073 /* Detail2ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +51,6 @@
 		0B37FAF317FD05AE00357DB5 /* AddKeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddKeeperViewController.h; sourceTree = "<group>"; };
 		0B37FAF417FD05AE00357DB5 /* AddKeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddKeeperViewController.m; sourceTree = "<group>"; };
 		0B37FAFA17FDAC9000357DB5 /* scoreKeeperIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreKeeperIcon.png; path = ../scoreKeeperIcon.png; sourceTree = "<group>"; };
-		0BB51FA11822F715003C1073 /* TotalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalsViewController.h; sourceTree = "<group>"; };
-		0BB51FA21822F715003C1073 /* TotalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalsViewController.m; sourceTree = "<group>"; };
 		0BB51FA41822FB43003C1073 /* Detail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2ViewController.h; sourceTree = "<group>"; };
 		0BB51FA51822FB43003C1073 /* Detail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2ViewController.m; sourceTree = "<group>"; };
 		0BB51FDC182BFEA5003C1073 /* MADMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 				0B37FADF17FB2B6700357DB5 /* MainStoryboard.storyboard */,
 				0BB51FA41822FB43003C1073 /* Detail2ViewController.h */,
 				0BB51FA51822FB43003C1073 /* Detail2ViewController.m */,
-				0BB51FA11822F715003C1073 /* TotalsViewController.h */,
-				0BB51FA21822F715003C1073 /* TotalsViewController.m */,
 				0B37FAED17FB3D8100357DB5 /* scoreKeeper.h */,
 				0B37FAEE17FB3D8100357DB5 /* scoreKeeper.m */,
 				0B37FAE317FB2B6700357DB5 /* MADMasterViewController.m */,
@@ -215,7 +210,6 @@
 				0B37FAEF17FB3D8100357DB5 /* scoreKeeper.m in Sources */,
 				0B37FAF217FB41E100357DB5 /* scoreKeeperDataController.m in Sources */,
 				0B37FAF517FD05AE00357DB5 /* AddKeeperViewController.m in Sources */,
-				0BB51FA31822F715003C1073 /* TotalsViewController.m in Sources */,
 				0BB51FA61822FB43003C1073 /* Detail2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

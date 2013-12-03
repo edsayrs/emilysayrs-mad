@@ -24,6 +24,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *player2NameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *player1ScoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *player2ScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *player1BagsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *player2BagsLabel;
+
 
 - (IBAction)player1Plus5:(UIButton *)sender;
 
