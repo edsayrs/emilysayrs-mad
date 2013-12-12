@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7A8FB53E-964E-4169-BA81-85D62FE2A626</string>
+	<key>IDESourceControlProjectName</key>
+	<string>animation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B0615E4-96FD-43BA-9046-CB769485D8BD</key>
+		<string>https://github.com/edsayrs/emilysayrs-mad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>animation/animation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B0615E4-96FD-43BA-9046-CB769485D8BD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/edsayrs/emilysayrs-mad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1B0615E4-96FD-43BA-9046-CB769485D8BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B0615E4-96FD-43BA-9046-CB769485D8BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Emily Sayrs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

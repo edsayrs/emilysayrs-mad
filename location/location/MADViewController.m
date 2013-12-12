@@ -20,14 +20,17 @@
 
 - (void)viewDidLoad
 {
+        [super viewDidLoad];
+    NSLog(@"in viewdidload");
     locationManager=[[CLLocationManager alloc] init];
     locationManager.delegate=self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;//specify desired accuracy
     locationManager.distanceFilter=kCLDistanceFilterNone; //specify the distance a device must move laterally (in meters) to generate an update. none means we specify to be notified of every movement
-    [locationManager startUpdatingLocation];//starts the location manager
-    _mapView.delegate=self;
+        _mapView.delegate=self;
     _mapView.mapType=MKMapTypeHybrid;
-    [super viewDidLoad];
+    [locationManager startUpdatingLocation];//starts the location manager
+
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -35,11 +38,12 @@
 
 //called when a new location value is available
 
--(void)locationManager:(CLLocationManager *)manager didupdateLocations:(NSArray *)locations{
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+    NSLog(@"in didupdatelocations");
     _latitudeLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.coordinate.latitude];//assign the latitude as a string to a text field
     _longitudeLabel.text=[[NSString alloc] initWithFormat: @"%f", manager.location.coordinate.longitude];//assign the longitude as a string to the text field
     _altitudeLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.altitude]; //assign the altitude as a string to the text field
-     _accuracyLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.horizontalAccuracy]; //assign the accuracy as a string to the text field
+    _accuracyLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.horizontalAccuracy]; //assign the accuracy as a string to the text field
     MKCoordinateSpan span;//defines the area spanned by a map region
     span.latitudeDelta=.001; //the ammount of north to south distance (measured in degrees) to display on the map
     span.longitudeDelta=.001; //the ammount of east to west distance (measured in degrees) to display on the map
@@ -51,13 +55,14 @@
     //display annotation
     if(annotation){
         [annotation moveAnnotation:manager.location.coordinate];//moves the annotation if it already exists
-    
+        
     }
-else { //creates an annotation if one dies not exist
-    annotation =[[MADAnnotation alloc] initWithCoordinate:manager.location.coordinate]; //creates a new annotation
-    [_mapView addAnnotation:annotation]; //adds the annotation to the mapview
+    else { //creates an annotation if one dies not exist
+        annotation =[[MADAnnotation alloc] initWithCoordinate:manager.location.coordinate]; //creates a new annotation
+        [_mapView addAnnotation:annotation]; //adds the annotation to the mapview
+    }
 }
-}
+
 
 //called when a location cannot be determined
 -(void) locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
