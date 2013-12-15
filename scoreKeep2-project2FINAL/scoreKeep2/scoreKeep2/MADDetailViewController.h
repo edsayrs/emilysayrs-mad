@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @class scoreKeeper;
 
-@interface MADDetailViewController : UITableViewController
+@interface MADDetailViewController : UITableViewController 
 
 //@property (strong, nonatomic) id detailItem;
 

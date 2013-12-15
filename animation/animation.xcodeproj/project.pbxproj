@@ -38,7 +38,7 @@
 		0BE22F4E183538C900FC0DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0BE22F50183538C900FC0DDC /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		0BE22F51183538C900FC0DDC /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
-		0BE22F58183538D300FC0DDC /* spade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spade.jpg; sourceTree = "<group>"; };
+		0BE22F58183538D300FC0DDC /* spade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spade.jpg; path = ../spade.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,6 @@
 		0BE22F29183538C900FC0DDC = {
 			isa = PBXGroup;
 			children = (
-				0BE22F58183538D300FC0DDC /* spade.jpg */,
 				0BE22F3B183538C900FC0DDC /* animation */,
 				0BE22F34183538C900FC0DDC /* Frameworks */,
 				0BE22F33183538C900FC0DDC /* Products */,
@@ -99,6 +98,7 @@
 		0BE22F3C183538C900FC0DDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BE22F58183538D300FC0DDC /* spade.jpg */,
 				0BE22F3D183538C900FC0DDC /* animation-Info.plist */,
 				0BE22F3E183538C900FC0DDC /* InfoPlist.strings */,
 				0BE22F41183538C900FC0DDC /* main.m */,
@@ -305,6 +305,7 @@
 				0BE22F57183538C900FC0DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

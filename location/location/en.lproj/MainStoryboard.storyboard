@@ -58,7 +58,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jEz-zZ-Oay">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEz-zZ-Oay">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="331" id="YGj-ul-2Qb"/>
                                     <constraint firstAttribute="height" constant="397" id="cEq-9I-vQ2"/>
