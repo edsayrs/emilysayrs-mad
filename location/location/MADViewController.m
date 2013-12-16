@@ -20,21 +20,30 @@
 
 - (void)viewDidLoad
 {
+        [super viewDidLoad];
+    NSLog(@"in viewdidload");
     locationManager=[[CLLocationManager alloc] init];
     locationManager.delegate=self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;//specify desired accuracy
     locationManager.distanceFilter=kCLDistanceFilterNone; //specify the distance a device must move laterally (in meters) to generate an update. none means we specify to be notified of every movement
-    [locationManager startUpdatingLocation];//starts the location manager
-    _mapView.delegate=self;
+        _mapView.delegate=self;
     _mapView.mapType=MKMapTypeHybrid;
-    [super viewDidLoad];
+    [locationManager startUpdatingLocation];//starts the location manager
+
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 //CLLocationManagerDelegate methods
 
 //called when a new location value is available
+<<<<<<< HEAD
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+=======
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+    NSLog(@"in didupdatelocations");
+>>>>>>> c33504ecc408c617c3e530d5dd93df430855ec69
     _latitudeLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.coordinate.latitude];//assign the latitude as a string to a text field
     _longitudeLabel.text=[[NSString alloc] initWithFormat: @"%f", manager.location.coordinate.longitude];//assign the longitude as a string to the text field
     _altitudeLabel.text=[[NSString alloc] initWithFormat:@"%f", manager.location.altitude]; //assign the altitude as a string to the text field
@@ -51,6 +60,7 @@
     if(annotation){
         [annotation moveAnnotation:manager.location.coordinate];//moves the annotation if it already exists
         
+<<<<<<< HEAD
     }
     else { //creates an annotation if one dies not exist
         annotation =[[MADAnnotation alloc] initWithCoordinate:manager.location.coordinate]; //creates a new annotation
@@ -58,6 +68,13 @@
     }
 
     
+=======
+    }
+    else { //creates an annotation if one dies not exist
+        annotation =[[MADAnnotation alloc] initWithCoordinate:manager.location.coordinate]; //creates a new annotation
+        [_mapView addAnnotation:annotation]; //adds the annotation to the mapview
+    }
+>>>>>>> c33504ecc408c617c3e530d5dd93df430855ec69
 }
 
 
