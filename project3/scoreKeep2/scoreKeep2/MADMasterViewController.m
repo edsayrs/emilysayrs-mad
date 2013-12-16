@@ -19,10 +19,13 @@
 
 
 
-/*@interface MADMasterViewController () {
+@interface MADMasterViewController () {
     NSMutableArray *_objects;
 }
-@end*/
+@end
+
+
+
 
 @implementation MADMasterViewController
 
@@ -58,6 +61,8 @@
 
     
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
    /* self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
@@ -91,6 +96,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [self.dataController countOfList];
+
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -15,6 +15,7 @@
 			<key>CFBundleIconFiles</key>
 			<array>
 				<string>scoreKeeperIcon.png</string>
+				<string>scoreKeeperIconR.png</string>
 			</array>
 		</dict>
 	</dict>

@@ -8,12 +8,17 @@
 
 #import "MADDetailViewController.h"
 #import "scoreKeeper.h"
+#import "Record.h"
+#import "MADAppDelegate.h"
 
 @interface MADDetailViewController ()
 - (void)configureView;
+
+
 @end
 
 @implementation MADDetailViewController
+
 
 #pragma mark - Managing the detail item
 
@@ -22,6 +27,9 @@
     if (_keeper != newKeeper) {
         _keeper = newKeeper;
         
+ 
+        
+
         // Update the view.
         [self configureView];
     }
@@ -40,7 +48,7 @@
         self.player2NameLabel.text = theKeeper.player2Name;
         self.player1ScoreLabel.text =theKeeper.player1Score;
         self.player2ScoreLabel.text =theKeeper.player2Score;
-      
+        
     }
     
 }
@@ -64,6 +72,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
@@ -83,6 +94,7 @@
     }
     else {
         self.winnerLabel.text=_player1NameLabel.text;
+        player1CurrentScore=150;
         if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]){
             detailSLComposerSheet = [[SLComposeViewController alloc] init];
             detailSLComposerSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
@@ -123,6 +135,8 @@
     }
     else {
         self.winnerLabel.text=_player1NameLabel.text;
+         player1CurrentScore=150;
+        
         //try to set up facebook sheet action here, rather than use a button//
         //check to see if the user is signed into facebook//
         if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]){
@@ -166,6 +180,7 @@
     }
     else {
         self.winnerLabel.text=_player2NameLabel.text;
+         player2CurrentScore=150;
         //try to set up facebook sheet action here, rather than use a button//
         //check to see if the user is signed into facebook//
         if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]){
@@ -209,6 +224,7 @@
     }
     else {
         self.winnerLabel.text=_player2NameLabel.text;
+         player2CurrentScore=150;
         //try to set up facebook sheet action here, rather than use a button//
         //check to see if the user is signed into facebook//
         if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]){

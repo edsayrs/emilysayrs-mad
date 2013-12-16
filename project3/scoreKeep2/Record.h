@@ -14,8 +14,10 @@
 
 @property (nonatomic, retain) NSString * player1name;
 @property (nonatomic, retain) NSString * player2name;
-@property (nonatomic, retain) NSNumber * player1score;
-@property (nonatomic, retain) NSNumber * player2score;
-@property (nonatomic, retain) NSString * attribute;
+@property (nonatomic, retain) NSString * player1score;
+@property (nonatomic, retain) NSString * player2score;
+@property (nonatomic, retain) NSString * winner;
+@property (nonatomic, retain) NSString * gameType;
+
 
 @end

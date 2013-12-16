@@ -15,6 +15,7 @@
 @dynamic player2name;
 @dynamic player1score;
 @dynamic player2score;
-@dynamic attribute;
+@dynamic winner;
+@dynamic gameType;
 
 @end

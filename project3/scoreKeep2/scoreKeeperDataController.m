@@ -9,11 +9,16 @@
 #import "scoreKeeperDataController.h"
 #import "scoreKeeper.h"
 
+
 @interface scoreKeeperDataController ()
 -(void) initializeDefaultDataList;
 @end
 
+
+
+
 @implementation scoreKeeperDataController
+
 
 -(void)initializeDefaultDataList{
     NSMutableArray *keeperList=[[NSMutableArray alloc] init];
@@ -22,6 +27,9 @@
     keeper =[[scoreKeeper alloc]initWithName:@"Player1 vs Player2"  winner:@"Player1"gameType:@"dominos"];
     [self addScoreKeeperWithKeeper:keeper];*/
     //I commented this out so no default shows.
+    
+    
+
     
 }
 
@@ -46,5 +54,6 @@
 }
 -(void)addScoreKeeperWithKeeper:(scoreKeeper *)keeper{
     [self.masterScoreKeeperList addObject:keeper];
+    
 }
 @end 

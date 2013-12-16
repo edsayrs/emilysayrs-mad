@@ -15,7 +15,7 @@
 
 
 @interface AddKeeperViewController ()
-@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
+
 
 
 @end
@@ -52,10 +52,10 @@
     NSArray *array=[[NSArray alloc] initWithObjects:@"Dominos", @"Spades", nil];
     _gameTypeInput.text = @"Dominos";
     _games=array;
+
     
-    MADAppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
-    
-    self.managedObjectContext = appDelegate.managedObjectContext;
+  
+  
     
 }
 
@@ -102,9 +102,12 @@
                       initWithName:[[NSString alloc]initWithFormat:@"%@ vs. %@", _player1NameInput.text, _player2NameInput.text] winner:[[NSString alloc]initWithFormat:@"Undecided"] gameType:self.gameTypeInput.text player1Name:self.player1NameInput.text player2Name:self.player2NameInput.text player1Score:self.startingScoreValue.text player2Score:self.startingScoreValue.text];
             self.scoreKeeper = keeper;
             
-   
+  
             
         }
+
+        
+        
     }
     
 }

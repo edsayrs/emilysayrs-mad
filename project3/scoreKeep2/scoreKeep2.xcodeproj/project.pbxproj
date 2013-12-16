@@ -28,6 +28,7 @@
 		0BBC1DDD185F8737002D2E59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC1DDC185F8737002D2E59 /* CoreData.framework */; };
 		0BBC1DE0185F8772002D2E59 /* scoreKeep2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC1DDE185F8772002D2E59 /* scoreKeep2.xcdatamodeld */; };
 		0BBC1DE3185F8EA4002D2E59 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC1DE2185F8EA4002D2E59 /* Record.m */; };
+		0BBC1DE5185FAA07002D2E59 /* scoreKeeperIconR.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC1DE4185FAA07002D2E59 /* scoreKeeperIconR.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		0BBC1DDF185F8772002D2E59 /* scoreKeep2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scoreKeep2.xcdatamodel; sourceTree = "<group>"; };
 		0BBC1DE1185F8EA4002D2E59 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = ../Record.h; sourceTree = "<group>"; };
 		0BBC1DE2185F8EA4002D2E59 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Record.m; path = ../Record.m; sourceTree = "<group>"; };
+		0BBC1DE4185FAA07002D2E59 /* scoreKeeperIconR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoreKeeperIconR.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		0B37FABB17FB2B6700357DB5 = {
 			isa = PBXGroup;
 			children = (
+				0BBC1DE4185FAA07002D2E59 /* scoreKeeperIconR.png */,
 				0B37FACD17FB2B6700357DB5 /* scoreKeep2 */,
 				0B37FAC617FB2B6700357DB5 /* Frameworks */,
 				0B37FAC517FB2B6700357DB5 /* Products */,
@@ -209,6 +212,7 @@
 				0B37FADE17FB2B6700357DB5 /* Default-568h@2x.png in Resources */,
 				0B37FAE117FB2B6700357DB5 /* MainStoryboard.storyboard in Resources */,
 				0B37FAFB17FDAC9000357DB5 /* scoreKeeperIcon.png in Resources */,
+				0BBC1DE5185FAA07002D2E59 /* scoreKeeperIconR.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

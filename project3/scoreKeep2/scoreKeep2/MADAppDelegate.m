@@ -15,6 +15,23 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+-(NSArray*)getAllscoreKeeperRecords{
+    //initialize fetch request
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    //set entity query
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Record" inManagedObjectContext:self.managedObjectContext];
+    [fetchRequest setEntity:entity];
+    NSError* error;
+    
+    //query managedObjectContext by fetchREquest
+    NSArray *fetchedRecords = [self.managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    
+    //return records
+    return fetchedRecords;
+    
+}
+
 -(NSManagedObjectContext *) managedObjectContext {
     if (_managedObjectContext != nil){
         return _managedObjectContext;
